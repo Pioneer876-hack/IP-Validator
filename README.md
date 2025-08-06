@@ -1,17 +1,16 @@
 ﻿Information:
 
-This tool is only used to validate IP address in its current state. There will be more updates going forward to push the limits of what this tool is able to accomplish.
+This tool is currently designed to validate IP addresses.
 
-What it does currently:
+Current Features:
 
-- Check if given IP address is a valid IPv4 or Ipv6
-- Allow the user to check multiple IP addresses or end session
+- Validate whether a given IP address is a valid IPv4 or IPv6.
+- Allow users to check multiple IP addresses or end the session.
+- Accept a network prefix from the user.
+- Return the netmask (requires both the network prefix and IP address).
 
-How to use this tool:
+How to Use This Tool:
 
-- Go to your favorite terminal or code editor
-- Run code to start using the tool and that's it!
-
-
-
-
+1. Open your favorite terminal or code editor.
+2. In the terminal, type `pip install ipaddress`.
+3. Run the code to start using the tool, and you're all set!
